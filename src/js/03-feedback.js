@@ -36,6 +36,7 @@ function onSubmitForm (evt) {
     console.log (feedBackForm.message.value);
     feedBackForm.email.value = ''
     feedBackForm.message.value = '';
+    localStorage.removeItem("feedback-form-state");
 }
 
 
